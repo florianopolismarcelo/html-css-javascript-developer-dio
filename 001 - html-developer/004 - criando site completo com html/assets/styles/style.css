@@ -56,6 +56,45 @@ section {
   font-size: 1.8rem;
 }
 
+.btn {
+  background-color: #bbecf8 ;
+  color: #147fbd;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.home-container section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+ 
+.content {
+  max-width: 60rem;
+}
+.content h3 {
+  color: black;
+  font-size: 1.5rem;
+}
+.content p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 1rem 0;
+}
+
 footer {
   background: #bbecf8;
   width: 100%;
