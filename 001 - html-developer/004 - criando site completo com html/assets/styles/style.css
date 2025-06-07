@@ -27,13 +27,11 @@ section {
 }
 
 .header {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
   border-bottom: #1a799a 2px solid;
-
 }
 
 .header section {
@@ -78,16 +76,17 @@ section {
 .home-container section {
   display: flex;
   align-items: center;
-  min-height: 100vh;
 }
  
 .content {
   max-width: 60rem;
 }
+
 .content h3 {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
+
 .content p {
   color: black;
   font-size: 1rem;
@@ -108,4 +107,3 @@ footer p {
   text-align: center;
   padding: 40px;
 }
-
