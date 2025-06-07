@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+  font-family: Merriweather, sans-serif;
+}
+
+body {
+  background-color: #f8fdff;
+
+}
+
+.navbar a {
+  margin: 0 3rem;
+  font-size: 1.5rem;
+  color: #1a799a;
+}
+
+.navbar a:hover {
+  color: #147fbd;
+  font-size: 1.8rem;
+}
+
+table {
+  -webkit-box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+  box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+  border: solid 2px black;
+}
+
+#menu {
+  background-color: #1a799a;
+  color: white;
+}
