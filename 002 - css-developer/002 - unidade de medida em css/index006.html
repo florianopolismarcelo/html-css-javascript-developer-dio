@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Função calc()</title>
+</head>
+<style>
+  p {
+    margin: 0;
+  }
+
+  div {
+    padding: 10px;
+  }
+
+  .exemplo-01 {
+    background-color: yellow;
+    width: 300px;
+    box-sizing: border-box;
+  }
+
+  .exemplo-02 {
+    box-sizing: border-box;
+    background-color: palevioletred;
+    width: calc(100% - 30px);
+    /*width: calc(100% / 2);*/
+    /*width: calc(100% + 30px);*/
+    /*width: calc(100% * 2);*/
+    /*width: calc(2rem + 30px);*/
+  }
+</style>
+
+<body>
+  <h1>Função calc()</h1>
+  <div class="exemplo-01">
+    Elemento pai
+    <div class="exemplo-02">
+      Elemento filho
+    </div>
+  </div>
+</body>
+
+</html>
