@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidade de medidia em x rem</title>
+</head>
+<style>
+  p {
+    margin: 0;
+  }
+
+  div {
+    padding: 10px;
+  }
+
+  .exemplo-01 {
+    background-color: yellow;
+  }
+
+  .exemplo-02 {
+    background-color: palevioletred;
+  }
+
+  .exemplo-03 {
+    background-color: aquamarine;
+  }
+</style>
+
+<body>
+  <h1>Unidade de medida em x rem</h1>
+  <p style="font-size: 2rem;">
+    font-size: 2rem;
+  </p>
+
+  <p style="font-size: 2em;">
+    font-size: 2em;
+  </p>
+
+  <p style="font-size: 200%;">
+    font-size: 200%
+  </p>
+
+  <br><br>
+
+  <div class="exemplo-01" style="font-size: 2rem;">
+    font-size: 2rem;
+    <div class="exemplo-02" style="font-size: 2em;">
+      font-size: 2em;
+      <div class="exemplo-03" style="font-size: 200%;">
+        font-size: 200%;
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="exemplo-01" style="font-size: 2rem;">
+    font-size: 2rem;
+    <div class="exemplo-02" style="font-size: 2em;">
+      font-size: 2em;
+    </div>
+    <div class="exemplo-03" style="font-size: 200%;">
+      font-size: 200%;
+    </div>
+    <div class="exemplo-02" style="font-size: 2rem;">
+      font-size: rem;
+    </div>
+  </div>
+</body>
+
+</html>
