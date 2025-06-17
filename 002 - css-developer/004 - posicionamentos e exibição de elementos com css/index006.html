@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alinhamento de Elementos Inline</title>
+</head>
+<style>
+  body {
+    font-size: Roboto, sans-serif;
+  }
+
+  .exemplo {
+    background-color: palevioletred;
+  }
+
+  #item-01 {
+    height: 50px;
+    /*vertical-align: top;*/
+    /*vertical-align: bottom;*/
+    /*vertical-align: middle;*/
+  }
+
+  #item-02 {
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .container {
+    border: 1px solid red;
+    text-align: center;
+    /* text-align: right; */
+    /*text-align: left;*/
+  }
+</style>
+
+<body>
+  <h1>Alinhamento elementos inline</h1>
+
+  <div class="container">
+    <img id="item-01" src="./assets/images/logo.png" alt="">
+    <span id="item-02" class="exemplo">item 01</span>
+    <span id="item-03" class="exemplo">item 02</span>
+  </div>
+</body>
+
+</html>
