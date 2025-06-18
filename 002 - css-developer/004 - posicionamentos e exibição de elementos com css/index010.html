@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colocar algo escrito em cima de uma imagem</title>
+</head>
+<style>
+  body {
+    font-size: Roboto, sans-serif;
+    background-color: black;
+    color: orangered;
+    height: 200vh;
+  }
+
+  .container {
+    width: 600px;
+    height: 900px;
+    border: 5px solid orange;
+    position: relative;
+    
+  }
+
+  .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .container h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    position: absolute;
+    top: 86%;
+    left: 42%;
+  }
+</style>
+
+<body>
+<div class="container">
+  <img src="./assets/images/safira.png" alt="Uma gata brava">
+  <h3>Safira</h3>
+</div>
+
+</body>
+
+</html>
