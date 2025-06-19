@@ -1,0 +1,10 @@
+.container {
+  background-color: palegreen;
+  padding: 20px; /*Padding ao redor do container que é o pai*/
+  display: inline-flex; /*Coloca um container do lado do outro*/
+}
+
+.item {
+  background-color: orange;
+  margin: 10px; /*margin ao redor do intem que é o filho*/
+}
