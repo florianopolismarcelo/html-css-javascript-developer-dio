@@ -1,0 +1,29 @@
+.container {
+  background-color: palegreen;
+  padding: 20px; 
+  margin: 20px;
+  width: 300px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+}
+
+.item {
+  background-color: orange;
+  margin: 10px; 
+}
+
+#container-01 {
+  flex-flow: row wrap;
+}
+
+#container-02 {
+  flex-direction: column; 
+  height: 400px;
+  flex-flow: column wrap-reverse;
+}
