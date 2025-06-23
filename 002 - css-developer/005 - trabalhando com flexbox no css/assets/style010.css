@@ -1,0 +1,30 @@
+.container {
+  background-color: blueviolet;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+#container-01 {
+ flex-flow: row wrap;
+}
+
+#container-02 {
+  flex-flow: column wrap;
+}
+
+.item {
+  padding: 8px;
+  background: yellow;
+  /* order: 10; */
+}
+
+.item-04 {
+ order: -1;
+ /* order: 1; */
+}
+
+.item-09 {
+  order: -2; /*Ficou na frente pois o -2 fica na frente do -1*/
+  /* order: 1; */
+ }
