@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid black;
+  padding: 10px; /*Padding ao redor do container que é o pai*/
+  margin-bottom: 20px;
+
+  display: inline-grid;
+  /* display: grid; */
+}
+
+.item {
+  background-color: palegreen;
+}
