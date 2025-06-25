@@ -2,10 +2,12 @@
   background: yellow;
   padding: 10px; /*Padding ao redor do container que é o pai*/
   margin-bottom: 20px;
+  height: 500px;
 
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 300px 200px 100px;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr; /*obrigatóriamente terá que definir uma altura height*/
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; ocupa uma fração do espaço disponivel no container */
   /* grid-template-columns: 50% 200px 30rem; */
   /* grid-template-columns: 50% 30% 10% 10%; */
   /* grid-template-columns: 200px 300px 100px 150px; */
