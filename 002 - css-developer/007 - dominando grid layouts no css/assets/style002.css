@@ -4,7 +4,11 @@
   margin-bottom: 20px;
 
   display: grid;
-  
+  grid-template-columns: 200px 200px 200px;
+  /* grid-template-columns: 50% 200px 30rem; */
+  /* grid-template-columns: 50% 30% 10% 10%; */
+  /* grid-template-columns: 200px 300px 100px 150px; */
+  /* grid-template-columns: 200px 300px 100px; */
 }
 
 .item {
