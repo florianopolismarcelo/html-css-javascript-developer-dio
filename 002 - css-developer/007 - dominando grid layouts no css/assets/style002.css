@@ -5,12 +5,13 @@
   height: 500px;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(auto-fit, 100px); /*não aloca o máximo de espaço de coluna*/
+  /* grid-template-columns: repeat(auto-fill, 100px); aloca o máximo de espaço de coluna que puder para o tamanho */
+  grid-template-rows: repeat(2, 1fr);  /* 2 colunas com 1fr (obrigatóriamente terá que definir uma altura height)*/
   /* grid-template-columns: repeat(3, 1fr  2fr); 1fr 2fr 1fr 2fr 1fr 2fr */
   /* grid-template-columns: repeat(3, 200px 100px);  */
   /* grid-template-columns: 100px repeat(3, 1fr) 100px; */
   /* grid-template-columns: repeat(3, 1fr); três linhas com 1fr */
-  grid-template-rows: repeat(2, 1fr);  /* 2 colunas com 1fr (obrigatóriamente terá que definir uma altura height)*/
   /* grid-template-columns: 1fr 1fr 1fr 1fr; ocupa uma fração do espaço disponivel no container */
   /* grid-template-columns: 50% 200px 30rem; */
   /* grid-template-columns: 50% 30% 10% 10%; */
