@@ -9,4 +9,7 @@
 .item {
   text-align: center;
   background-color: orange;
+
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
