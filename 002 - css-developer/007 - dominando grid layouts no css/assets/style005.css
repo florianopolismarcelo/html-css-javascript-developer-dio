@@ -1,0 +1,12 @@
+.container {
+  border: 2px solid;
+  display: grid;
+ 
+  grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
+  grid-template-rows: 50px 100px 200px;
+}
+
+.item {
+  text-align: center;
+  background-color: orange;
+}
