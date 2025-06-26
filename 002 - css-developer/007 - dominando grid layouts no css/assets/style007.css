@@ -1,0 +1,17 @@
+.container {
+  border: 2px solid;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 200px);
+}
+
+.item {
+  text-align: center;
+  background-color: deeppink;
+}
+
+.selected {
+  background-color: aqua;
+
+}
