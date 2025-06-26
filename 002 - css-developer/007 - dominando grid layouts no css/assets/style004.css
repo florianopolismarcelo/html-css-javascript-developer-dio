@@ -1,0 +1,42 @@
+.container {
+  background: yellow;
+  padding: 10px; /*Padding ao redor do container que é o pai*/
+  margin-bottom: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 150px))
+  /* grid-template-columns: minmax(100px, 300px) minmax(100px, 300px) minmax(100px, 300px); */
+  /* grid-auto-rows: minmax(100px, auto); interessante usar auto como está para não quebrar */
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.item-01 {
+  background: palevioletred;
+}
+
+.item-02 {
+  background: cornflowerblue;
+}
+
+.item-03 {
+  background: palegreen;
+}
+
+.item-04 {
+  background: orange;
+}
+
+.item-05 {
+  background: cadetblue;
+}
+
+.item-06 {
+  background: aqua;
+}
+
+.item-07 {
+  background: tomato;
+}
