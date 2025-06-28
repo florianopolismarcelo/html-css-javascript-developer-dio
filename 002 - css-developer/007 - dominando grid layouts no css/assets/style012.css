@@ -13,20 +13,25 @@ body {
 
 .logo {
   background-color: lightcoral;
+  grid-area: logo;
 }
 
 nav {
   background-color: yellow;
+  grid-area: nav;
 }
 
 aside {
   background-color: palevioletred;
+  grid-area: sidebar;
 }
 
 main {
   background-color: skyblue;
+  grid-area: main;
 }
 
 footer {
   background-color: palegreen;
+  grid-area: footer;
 }
