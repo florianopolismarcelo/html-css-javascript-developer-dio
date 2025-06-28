@@ -4,6 +4,11 @@ body {
   height: 100vh;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 100px 3fr 1fr;
+
+  grid-template-areas:
+    "logo nav"
+    "sidebar main"
+    "sidebar footer";
 }
 
 .logo {
