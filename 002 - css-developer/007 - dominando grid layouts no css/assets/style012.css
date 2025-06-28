@@ -1,5 +1,27 @@
 body {
+  margin: 0;
   display: grid;
+  height: 100vh;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 100px 3fr 1fr;
+}
+
+.logo {
+  background-color: lightcoral;
+}
+
+nav {
+  background-color: yellow;
+}
+
+aside {
+  background-color: palevioletred;
+}
+
+main {
+  background-color: skyblue;
+}
+
+footer {
+  background-color: palegreen;
 }
