@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  border: 3px solid;
+  height: 80vh;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+  gap: 15px;
+
+  align-items: start;
+  /* align-items: center; */
+  /* align-items: end; */
+  /* align-items: start; */
+
+  justify-items: center; 
+  /* justify-items: end;  */
+  /* justify-items: start;  */
+  /* justify-items: stretch;  */
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.item-01 {
+  background: palevioletred;
+}
+
+.item-02 {
+  background: cornflowerblue;
+}
+
+.item-03 {
+  background: palegreen;
+}
+
+.item-04 {
+  background: orange;
+}
+
+.item-05 {
+  background: cadetblue;
+}
+
+.item-06 {
+  background: aqua;
+}
+
+.item-07 {
+  background: tomato;
+}
