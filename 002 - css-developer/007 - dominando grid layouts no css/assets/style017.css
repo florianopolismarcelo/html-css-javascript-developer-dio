@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  border: 3px solid;
+  height: 80vh;
+  grid-template: repeat(3, auto) / repeat(3, auto);
+
+  place-items: center;
+  justify-content: stretch;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: start; */
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.item-01 {
+  background: palevioletred;
+}
+
+.item-02 {
+  background: cornflowerblue;
+}
+
+.item-03 {
+  background: palegreen;
+}
+
+.item-04 {
+  background: orange;
+}
+
+.item-05 {
+  background: cadetblue;
+}
+
+.item-06 {
+  background: aqua;
+}
+
+.item-07 {
+  background: tomato;
+}
