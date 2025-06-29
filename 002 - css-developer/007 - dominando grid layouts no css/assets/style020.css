@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  border: 3px solid;
+  height: 80vh;
+  grid-template: repeat(3, auto) / repeat(3, auto);
+
+  place-items: center;
+
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.item-01 {
+  background: palevioletred;
+  place-self: end center; 
+  /* justify-self: end;
+  align-self: center; */
+}
+
+.item-02 {
+  background: cornflowerblue;
+}
+
+.item-03 {
+  background: palegreen;
+}
+
+.item-04 {
+  background: orange;
+
+  place-self: start end; 
+  /* justify-self: start; */
+  /* align-self: end; */
+  align-self: end; 
+}
+
+.item-05 {
+  background: cadetblue;
+}
+
+.item-06 {
+  background: aqua;
+}
+
+.item-07 {
+  background: tomato;
+}
