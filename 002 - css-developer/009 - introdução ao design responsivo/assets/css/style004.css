@@ -1,0 +1,12 @@
+@media screen {
+  body {
+    font-size: 12pt;
+    color: black;
+    background-color: black;
+    color: white;
+  }
+
+  b {
+    color: red;
+  }
+}
