@@ -1,0 +1,8 @@
+.image-container {
+border: 2px solid red;
+}
+
+img {
+  max-width: 100%; /* A imagem não vai ultrapassar o tamanho do container */
+  /* width: 100%; vai ocupar toda tela */
+}
