@@ -1,0 +1,12 @@
+code {
+  background-color: lightgrey;
+}
+
+video {
+  width: 100%;
+}
+
+video::backdrop {
+  background: blue;
+}
+
