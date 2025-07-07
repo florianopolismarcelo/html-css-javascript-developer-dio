@@ -1,0 +1,18 @@
+code {
+  background-color: lightgrey;
+}
+
+::first-letter {
+  font-size: 30px;
+}
+
+/* p::first-letter {
+  font-size: 30px;
+} */
+
+/* ::first-letter {
+  color: red;
+  background-color: lightblue;
+  border: 1px solid black;
+} */
+
