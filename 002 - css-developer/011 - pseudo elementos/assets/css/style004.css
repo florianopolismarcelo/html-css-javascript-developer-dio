@@ -1,0 +1,13 @@
+code {
+  background-color: lightgrey;
+}
+
+summary::marker {
+  content: "💖";
+  color: red;
+}
+
+li::marker {
+  content: " ♛ ";
+  color: blue;
+}
