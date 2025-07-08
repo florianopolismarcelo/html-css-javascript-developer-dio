@@ -1,0 +1,14 @@
+code {
+  background-color: lightgrey;
+}
+p::before{
+  content: "❤";
+  color: yellow;
+  background-color: greenyellow;
+}
+
+p::after{
+  content: "❤";
+  color: greenyellow;
+  background-color: yellow;
+}
