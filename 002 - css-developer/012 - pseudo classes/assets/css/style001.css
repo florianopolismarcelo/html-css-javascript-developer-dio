@@ -1,0 +1,33 @@
+button {
+  background-color: palevioletred;
+  border: none;
+  padding: 8px 14px;
+  color: white;
+}
+
+button:hover {
+  background-color: palegreen;
+  color: darkgreen;
+  border: 1px solid darkgreen;
+  cursor: pointer;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: palegoldenrod;
+  margin-top: 30px ;
+}
+
+.container:hover {
+  background-color: lightcoral;
+  background: url("../image/cristo.png") no-repeat center;
+  background-size: cover;
+}
+
+/* .container:hover {
+  background-color: lightcoral;
+  width: 150px;
+  height: 150px;
+  transition: all 0.5s ease-in-out;
+} */
