@@ -1,0 +1,11 @@
+code {
+  background-color: lightgrey;
+}
+::section {
+  background-color: lightblue;
+  color: brown;
+}
+.exemplo::selection {
+  background-color: aquamarine;
+  color: blue;
+}
