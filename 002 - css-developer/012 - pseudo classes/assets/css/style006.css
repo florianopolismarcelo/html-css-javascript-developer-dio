@@ -1,0 +1,15 @@
+button:disabled {
+  background-color: gray;
+  color: yellow;
+}
+
+button:enabled {
+  background-color: palevioletred;
+  color: black;
+}
+
+button:hover:enabled {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
