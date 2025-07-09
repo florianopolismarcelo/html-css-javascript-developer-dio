@@ -1,0 +1,8 @@
+.exemplo:link {
+  color: lightgreen;
+  background-color: black;
+}
+
+a:visited {
+  color: yellow;
+}
