@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style011.css">
+  <title>Pseuso-Classes</title>
+</head>
+
+<body>
+  <h1>Pseuso-classes:</h1>
+
+
+  <div>
+    <input name="task-03" type="checkbox">
+    <label for="task-03">:in-range</label>
+  </div>
+  <div>
+    <input name="task-04" type="checkbox">
+    <label for="task-04">:out-of-range</label>
+  </div>
+
+  <hr>
+
+  <form>
+    <h3>Faça sua compra:</h3>
+    <label for="email" required>E-mail:</label>
+    <input type="email" name="email">
+
+    <label for="codigo-produto" required>Código do Produto:</label>
+    <input type="number" name="codigo-produto" min="1000">
+
+    <label for="cupom" required>Cupom de Desconto:</label>
+    <input name="cupom" type="text" pattern="[a-z]+" placeholder="Apenas letras minúsculas">
+
+    <label for="data-nascimento" required>Data de Nascimento:</label>
+    <input name="data-nascimento" type="date" min="1962-01-01" max="2004-12-31">
+
+    <label for="quantidade" required>Quantidade:</label>
+    <input type="number" name="amount" min="3" max="10">
+
+    <label>
+      <input type="checkbox" required>
+      <span>Li e aceito os termos de uso</span>
+    </label>
+    <button type="submit">comprar</button>
+
+  </form>
+
+
+</body>
+
+</html>
