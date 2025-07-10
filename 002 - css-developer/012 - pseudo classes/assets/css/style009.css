@@ -1,0 +1,32 @@
+input {
+  accent-color: red;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+input[type="radio"] {
+  accent-color: blue;
+}
+
+input[type="radio"]:checked + label {
+  color: blue;
+}
+
+/* input:checked + label {
+  text-decoration: line-through;
+  /* color: red; */
+
+/* input:checked {
+  box-shadow: 0 0 5px 2px purple;
+} */
+
+option:checked {
+  color: red;
+  font-weight: bold;
+}
+
+progress:indeterminate {
+  accent-color: red;
+}
