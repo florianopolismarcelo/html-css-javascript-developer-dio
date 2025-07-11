@@ -1,0 +1,68 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+/* tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+th + td,
+th + th {
+  text-align: right;
+}
+
+/* Exemplos */
+
+article :nth-of-type(2) {
+  color: red
+}
+
+/* article .exemplo:nth-of-type(1) {
+  color: red
+} */
+
+/* article div:nth-of-type(1) {
+  color: red
+} */
+
+/* article span:nth-of-type(1) {
+  color: red
+} */
+
+/* article p:nth-of-type(1) {
+  color: red
+} */
+
+/* article :nth-child(2) {
+  color: red
+} */
+
+/* article .exemplo:nth-child(1) {
+  color: red
+} */
+
+/* article p:nth-child(2) {
+  color: red
+} */
+
+/* article p:nth-child(3) {
+  color: red
+} */
