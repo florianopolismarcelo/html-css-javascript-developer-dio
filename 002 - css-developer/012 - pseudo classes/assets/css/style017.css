@@ -35,11 +35,11 @@ th + th {
 
 
 
-li:nth-child(even) { /*  even significa par então será todo elementos pares */
+ li:nth-child(even) {  /* even significa par então será todo elementos pares */
   color: red
 }
 
-li:nth-child(odd) { /*  even significa impar então será todo elementos impares */
+li:nth-child(odd) {  /* even significa impar então será todo elementos impares */
   color: blue
 }
 
@@ -53,5 +53,16 @@ li:nth-child(odd) { /*  even significa impar então será todo elementos impares
 } */
 
 /* li:nth-child(3) {
+  color: red
+} */
+
+
+/* seletores mais conplexos: */
+
+/* li:nth-child(3n) {
+  color: red
+} */
+
+/* li:nth-child(3n+1) {
   color: red
 } */
