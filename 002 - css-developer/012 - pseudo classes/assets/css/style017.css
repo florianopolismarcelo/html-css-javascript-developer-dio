@@ -1,0 +1,57 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+/* tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+th + td,
+th + th {
+  text-align: right;
+}
+
+/* Exemplos */
+
+
+
+
+
+li:nth-child(even) { /*  even significa par então será todo elementos pares */
+  color: red
+}
+
+li:nth-child(odd) { /*  even significa impar então será todo elementos impares */
+  color: blue
+}
+
+/* #lista-2 li:nth-child(3) {
+  color: red
+} */
+
+
+/* #lista-1 li:nth-child(3) {
+  color: red
+} */
+
+/* li:nth-child(3) {
+  color: red
+} */
