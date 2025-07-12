@@ -1,0 +1,23 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+article :last-of-type {
+  color: orange;
+}
+
+/* article p:first-of-type {
+  color: orange;
+} */
+
+/* article :first-of-type {
+  color: orange;
+} */
