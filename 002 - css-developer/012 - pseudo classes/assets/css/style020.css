@@ -1,0 +1,58 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+li:nth-last-child(even) {
+  font-weight: bold;
+  color: purple;
+}
+
+/* li:nth-last-child(odd) {
+  font-weight: bold;
+  color: purple;
+} */
+
+/* li:nth-last-child(-n+3) {
+  font-weight: bold;
+  color: purple;
+} */
+
+/* li:nth-last-child(3n+1) {
+  font-weight: bold;
+  color: purple;
+} */
+
+/* li:nth-last-child(2n) {
+  font-weight: bold;
+  color: purple;
+} */
+
+/* li:nth-last-child(3) {
+  font-weight: bold;
+  color: purple;
+} */
+
+dl :nth-last-of-type(2) {
+  color: red;
+}
+
+
+/* dl :nth-last-of-type(1) {
+  color: red;
+} */
+
+/* dd:nth-last-of-type(2) {
+  color: red;
+} */
+
+/* dd:nth-last-of-type(3n) {
+  color: red;
+} */
