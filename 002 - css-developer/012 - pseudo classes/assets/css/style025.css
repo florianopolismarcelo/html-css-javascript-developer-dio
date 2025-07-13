@@ -1,0 +1,36 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+
+section p,
+article p,
+aside p,
+nav p {
+  background-color: red;
+  font-weight: bold;
+}
+/*obs: where não tem prioridade do seletor acima, porém o :is tem descomente o :is abaixo e veja:*/
+:where(section, article, aiside, nav) p {
+  background-color: pink;
+  font-weight: bold;
+}
+
+/* :is(section, article, aiside, nav) p {
+  background-color: greenyellow;
+  font-weight: bold;
+} */
+
+
+
+
+
+
