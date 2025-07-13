@@ -1,0 +1,41 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+/* .post h2, 
+.post li,
+.post .red {
+  color: red;
+} */
+
+/* abaixo está a forma resumida do código comentado acima  */
+  .post :is(h2, li, .red) {     
+  color: blue;
+}
+
+/* section p,
+article p,
+aside p,
+nav p {
+  background-color: pink;
+  font-weight: bold;
+} */
+
+/* abaixo está a forma resumida do código comentado acima */
+:is(section, article, aiside, nav) p {
+  background-color: pink;
+  font-weight: bold;
+}
+
+
+
+
+
+
