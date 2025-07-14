@@ -1,0 +1,33 @@
+:root {
+  background-color: bisque;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+
+img:not([alt]) {
+  border: 3px solid red;
+}
+
+li:not(:first-child, :last-child) {
+  font-weight: bold;
+}
+
+.post p:not(.irrelevante) {
+   color: red;
+}
+
+/* .post p {
+   color: red;
+} */
+
+
+
+
+
