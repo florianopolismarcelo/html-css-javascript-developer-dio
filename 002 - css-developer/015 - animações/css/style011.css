@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #d53369, #daae51);
+  box-shadow: 8px 12px 7px lightgray;
+  animation: safira 2.2s linear infinite;
+}
+.loader {
+  border: 5px solid #d53369;
+  border-radius: 50%;
+  margin: 8px;
+  /* animation: safira 0.8s ease-in-out alternate infinite; */
+}
+
+.loader:nth-child(1) {
+  animation: safira 0.8s ease-in-out alternate infinite;
+}
+
+.loader:nth-child(2) {
+  animation: safira 0.8s ease-in-out .3s alternate infinite;
+}
+
+.loader:nth-child(3) {
+  animation: safira 0.8s ease-in-out .6s alternate infinite;
+}
+
+@keyframes safira {
+  to {
+   transform: scale(1.8);
+  }
+}
