@@ -33,6 +33,7 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "css-prefix-order": "off"
   }
 }

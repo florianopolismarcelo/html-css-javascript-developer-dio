@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(34, 34, 34);
+}
+
+h1 {
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  font-size: 5rem;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+
+
+
