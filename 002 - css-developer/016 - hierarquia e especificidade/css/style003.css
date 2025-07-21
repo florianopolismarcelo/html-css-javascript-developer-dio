@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: red !important; 
+  font-size: 3.5rem !important;
+}
+
+div p {
+  color: blue;
+  font-size: 1.5rem;
+}
