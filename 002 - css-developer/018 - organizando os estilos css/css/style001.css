@@ -1,0 +1,33 @@
+/* 
+* VÁRIAVEIS CSS
+* Declaração: --nome-da-variavel
+* Referência: var(--nome-da-variavel) 
+*/
+:root {
+  /* --bg-safira: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+  --bg-safira: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  --bg-body: rgb(247, 247, 247);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-marcelo);
+  text-align: center;
+}
+
+h1 {
+  background: var(--bg-safira);
+  font-size: 5rem;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+a {
+  text-decoration: none;
+  background: var(--bg-safira);
+  padding: 8px 14px;
+  border-radius: 4px;
+  color: #fafafa;
+}
