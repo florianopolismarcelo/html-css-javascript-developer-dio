@@ -1,0 +1,56 @@
+/* 
+* VÁRIAVEIS CSS
+* Declaração: --nome-da-variavel
+* Referência: var(--nome-da-variavel) 
+*/
+:root {
+  /* --bg-safira: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+  --bg-safira: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  --bg-body: rgb(247, 247, 247);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-marcelo);
+  text-align: center;
+}
+
+h1 {
+  background: var(--bg-safira);
+  font-size: 5rem;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  max-width: 500px;
+  margin: 100px auto;
+}
+
+/* BEM CSS */
+.menu {
+  background-color: rgb(30, 30, 30);
+}
+
+.menu__list {
+  margin: 0;
+  padding: 24px 0;
+}
+
+.menu__item {
+  display: inline-block;
+  color: white;
+  margin: 0 16px;
+}
+
+.menu__link {
+  color: white;
+  background: var(--bg-safira);
+  padding: 12px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+} 
+
+.menu__item--active {
+  font-weight: bold;
+  color: #00d9ff;
+}
