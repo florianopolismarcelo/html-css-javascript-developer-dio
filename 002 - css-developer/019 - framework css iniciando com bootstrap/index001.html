@@ -14,7 +14,7 @@
   <!-- https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
   <!-- Navbar -->
 
-  <nav class="navbar navbar-expand-lg bg-light ">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./assets/images/logo.png" alt="logotipo cafeteria marcelo">
@@ -46,102 +46,105 @@
     </div>
   </nav>
 
-  <!-- Carousel -->
-  <div id="carousel-coffee" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true"
-        aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./assets/images/grao-cafe.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>A melhor experiência gastronômica de café</h5>
-          <p>Você vai esperenciar os melhores café do Brasil e do mundo.</p>
+  <main>
+    <!-- Carousel -->
+    <header id="carousel-coffee" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/grao-cafe.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A melhor experiência gastronômica de café</h5>
+            <p>Você vai esperenciar os melhores café do Brasil e do mundo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/imagem3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Um ambiente pensado para você e sua família</h5>
+            <p>Nosso restaurante foi pensado para te fornecer um ambiente confortável, tranquilo e leve.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/imagem4.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Os melhores grãos</h5>
+            <p>Trabalhamos com ingredientes selecionados, da melhor qualidade, do jeito que você merece.</p>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="./assets/images/imagem3.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Um ambiente pensado para você e sua família</h5>
-          <p>Nosso restaurante foi pensado para te fornecer um ambiente confortável, tranquilo e leve.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/images/imagem4.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Os melhores grãos</h5>
-          <p>Trabalhamos com ingredientes selecionados, da melhor qualidade, do jeito que você merece.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
 
-  <!-- Quote -->
-  <figure>
-    <blockquote class="blockquote">
-      <h3 class="fw-lighter text-center fst-italic mt-5">" O amor é um café às oito da manhã numa segunda."</h3>
-    </blockquote>
-    <figcaption class="blockoquet-footer text-center">
-      <cite title="Source Title">Cafeteria Marcelo</cite>
-    </figcaption>
-  </figure>
+    <!-- Quote -->
+    <figure>
+      <blockquote class="blockquote">
+        <h3 class="fw-lighter text-center fst-italic mt-5">" O amor é um café às oito da manhã numa segunda."</h3>
+      </blockquote>
+      <figcaption class="blockoquet-footer text-center">
+        <cite title="Source Title">Cafeteria Marcelo</cite>
+      </figcaption>
+    </figure>
 
-  <!-- About Cards -->
+    <!-- About Cards -->
 
-  <section id="about" class="container mt-5">
-    <div class="row">
-      <div class="col-lg-6 col-md-12">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="./assets/images/xicara1.png" class="img-fluid rounded-start" alt="Café espress">
+    <section id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/images/xicara1.png" class="img-fluid rounded-start" alt="Café espress">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Somos apaixonados por café</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café pode mudar o (seu) mundo.</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias a similique
+                    odit accusantium illum maxime sapiente, quo at adipisci. Culpa voluptas corporis illo quis
+                    exercitationem ex saepe sit velit?</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Somos apaixonados por café</h5>
-                <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café pode mudar o (seu) mundo.</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias a similique
-                  odit accusantium illum maxime sapiente, quo at adipisci. Culpa voluptas corporis illo quis
-                  exercitationem ex saepe sit velit?</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/images/xicara2.png" class="img-fluid rounded-start" alt="Café espress">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Equipe premiun de baristas</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Profissionais especializados para levar o melhor do café até
+                    a
+                    sua mesa.</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias a similique
+                    odit
+                    accusantium illum maxime sapiente, quo at adipisci. Culpa voluptas corporis illo quis exercitationem
+                    ex saepe
+                    sit velit?</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-12">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="./assets/images/xicara2.png" class="img-fluid rounded-start" alt="Café espress">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Equipe premiun de baristas</h5>
-                <h6 class="card-subtitle text-muted mb-3">Profissionais especializados para levar o melhor do café até a
-                  sua mesa.</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias a similique
-                  odit
-                  accusantium illum maxime sapiente, quo at adipisci. Culpa voluptas corporis illo quis exercitationem
-                  ex saepe
-                  sit velit?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
