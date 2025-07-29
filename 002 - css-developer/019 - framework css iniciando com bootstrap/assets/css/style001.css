@@ -1,3 +1,8 @@
+:root {
+  --bs-link-color: #198754;
+  --bs-link-hover-color: #146c43;
+}
+
 .btn {
   --bs-btn-bg: #198754;
   --bs-btn-border-color: #146c43;
@@ -6,8 +11,39 @@
   --bs-btn-active-bg: #0c5734;
 }
 
+section {
+  scroll-margin-top: 12rem;
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    scroll-margin-top: 25rem;
+  }
+  main {
+    margin-top: 10rem;
+  }
+
+  .carousel-item {
+    margin: 90px 0;
+  }
+  .card-menu img {
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .carousel-item img {
+    width: 20px;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .carousel-item {
+    height: 500px;
+  }
+}
+
 main {
-  margin-top: 9rem;
+  margin-top: 12rem;
 }
 
 .navbar-brand img {
@@ -17,7 +53,7 @@ main {
 /* Tamanho do carrossel */
 
 .carousel-item {
-  height: 500px;
+  height: 400px;
 }
 
 .carousel-item img {
@@ -38,4 +74,3 @@ main {
   height: 300px;
   object-fit: cover;
 }
-
